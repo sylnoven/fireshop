@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "discourse-dev-syl"
+  },
+  "targets": {
+    "discourse-dev-syl": {
+      "hosting": {
+        "shop": [
+          "discourse-dev"
+        ],
+        "admin": [
+          "discourse-dev-admin"
+        ]
+      }
+    }
+  }
+}
