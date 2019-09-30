@@ -1,15 +1,15 @@
 {
   "projects": {
-    "default": "discourse-dev-syl"
+    "default": "fireshop-syl"
   },
   "targets": {
-    "discourse-dev-syl": {
+    "fireshop-syl": {
       "hosting": {
         "shop": [
-          "discourse-dev"
+          "fireshop-syl"
         ],
         "admin": [
-          "discourse-dev-admin"
+          "fireshop-syl-admin"
         ]
       }
     }

@@ -1,9 +1,9 @@
 {
-  "name": "@jaspero/fireshop",
+  "name": "@sylnoven/fireshop",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "target-setup": "firebase target:apply hosting shop discourse-dev && firebase target:apply hosting admin discourse-dev-admin",
+    "target-setup": "firebase target:apply hosting shop fireshop-syl && firebase target:apply hosting admin fireshop-syl-admin",
     "build-indexes": "node build-indexes.js",
     "build": "npm --prefix client run build:all && npm --prefix functions run build",
     "lint": "npm --prefix client run lint && npm --prefix functions run lint",

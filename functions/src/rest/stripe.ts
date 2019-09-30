@@ -419,7 +419,7 @@ app.post('/webhook', async (req, res) => {
               additionalProperties: [{key: 'OrderId', value: order.id}],
               message,
               firebaseDashboard:
-                'https://console.firebase.google.com/u/2/project/discourse-dev-syl/overview',
+                'https://console.firebase.google.com/u/2/project/fireshop-syl/overview',
               adminDashboard: 'https://fireshop.admin.jaspero.co/'
             }
           ),
