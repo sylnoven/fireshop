@@ -10,7 +10,7 @@ jobs:
       - checkout
       - run:
           name: Set Public Environment
-          command: echo export const ENV_CONFIG=$DEV_PUBLIC_CONFIG > client/shared/consts/env-config.const.ts
+          command: echo export const ENV_CONFIG=$DEV_PUBLIC_CONFIG > client/shared/consts/env-dev-config.const.ts
       - run:
           name: Set Private Environment
           command: firebase functions:config:set sendgrid.token=$SENDGRID_TOKEN stripe.token=$STRIPE_DEV_TOKEN stripe.webhook=$STRIPE_DEV_WEBHOOK instagram.clientid=$INSTAGRAM_CLIENT_ID instagram.clientsecret=$INSTAGRAM_CLIENT_SECRET --project=fireshop-syl --token $FIREBASE_CI_TOKEN
